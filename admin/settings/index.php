@@ -1,0 +1,1 @@
+<?php echo '<h2>Settings Module</h2>'; ?>

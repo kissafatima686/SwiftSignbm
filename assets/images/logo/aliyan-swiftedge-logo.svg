@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 100" width="450" height="100">
+  <defs>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#005a8d" />
+      <stop offset="100%" stop-color="#0077b5" />
+    </linearGradient>
+    <linearGradient id="orangeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff7a00" />
+      <stop offset="100%" stop-color="#ff9933" />
+    </linearGradient>
+  </defs>
+  <g transform="translate(10, 10)">
+    <!-- Icon: 3 overlapping dynamic swooshes pointing top-right (swift/growth) -->
+    <!-- Swoosh 1 (Blue) -->
+    <path d="M10,65 C25,60 45,35 55,10 C50,25 35,45 10,50 Z" fill="url(#blueGrad)" />
+    <!-- Swoosh 2 (Blue) -->
+    <path d="M25,75 C45,70 70,40 80,15 C75,35 55,55 25,60 Z" fill="url(#blueGrad)" />
+    <!-- Swoosh 3 (Orange Accent) -->
+    <path d="M40,85 C65,80 95,45 105,20 C100,45 75,65 40,70 Z" fill="url(#orangeGrad)" />
+    
+    <!-- Brand Name Text -->
+    <!-- ALIYAN -->
+    <text x="125" y="44" font-family="'Montserrat', 'Segoe UI', sans-serif" font-size="30" font-weight="800" fill="#0077b5" letter-spacing="1.5">ALIYAN</text>
+    
+    <!-- SWIFTEDGE -->
+    <text x="250" y="44" font-family="'Montserrat', 'Segoe UI', sans-serif" font-size="30" font-weight="300" fill="#2c3e50" letter-spacing="1.5">SWIFTEDGE</text>
+    
+    <!-- ADVISORY -->
+    <text x="126" y="70" font-family="'Montserrat', 'Segoe UI', sans-serif" font-size="14" font-weight="700" fill="#ff7a00" letter-spacing="8">ADVISORY</text>
+  </g>
+</svg>
